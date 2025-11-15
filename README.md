@@ -23,7 +23,7 @@ The calculator features a clean and responsive design, styled to mimic the iOS c
 
 ## Usage
 1. Clone or download the repository.  
-2. Open `index.html` in a web browser to view the calculator.  
+2. Open `kalkulator.html` in a web browser to view the calculator.  
 3. Use the calculator by clicking the buttons:  
    - Numbers for input  
    - `+`, `-`, `×`, `÷` for operations  
