@@ -16,7 +16,7 @@ The calculator features a clean and responsive design, styled to mimic the iOS c
 - **Responsive Design:** Works on desktop and mobile screens.
 
 ## Pages / Files
-- `index.html` – Main HTML file containing the calculator layout  
+- `kalkulator.html` – Main HTML file containing the calculator layout  
 - `style.css` – CSS for styling the calculator interface  
 - `script.js` – JavaScript logic for calculator functionality  
 - `svg/` – Folder containing icons (exit, delete, etc.)
