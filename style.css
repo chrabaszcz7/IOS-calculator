@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: 'Xenar', sans-serif;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.conteiner{
+    width: 720px;
+    height: 1100px;
+    background-color: black;
+    border-radius: 16px;
+    user-select: none;
+}
+.jeden, .dwa, .trzy, .cztery, .piec{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.jeden p, .dwa p, .trzy p, .cztery p, .piec p{
+    color: white;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50%;
+    padding: 10px;
+    width: 135px;
+    height: 135px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#odejmowanie{
+    font-size: 80px;
+}
+
+.wynik{
+    color: white;
+    width: auto;
+    height: 100px;
+    padding-right: 15px;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 80px;
+    overflow-x: hidden;     
+    white-space: nowrap;   
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;      
+    justify-content: flex-end; 
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.jeden img{
+    width: 80px;
+    height: 70px;
+}
+
+.jeden p{
+    background-color: rgb(104, 104, 104);
+}
+
+.wyjscie{    /* wyśrodkowanie pionowe */
+    padding: 5px;   
+       /* opcjonalnie odstęp od krawędzi */
+}
+
+.wyjscie img{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+
+@media(max-width:768px){
+    body{
+        margin:0;
+        background-color: black;
+    }
+
+    .conteiner{
+        border-radius: 0;
+        width: 430px;
+        height: 100px
+    }
+    .jeden p, .dwa p, .trzy p, .cztery p, .piec p{
+        width: 65px;
+        height: 65px;
+        margin: 5px;
+        font-size: 40px;
+    }
+    .jeden img{
+        width: 50px;
+        height: 40px;
+    }
+
+    .wyjscie img{
+    width: 45px;
+    height: 45px;
+}
+}
